@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="yes" name="apple-touch-fullscreen" />
+    <meta content="telephone=no,email=no" name="format-detection" />
+    <meta name="App-Config" content="fullscreen=yes,useHistoryState=yes,transition=yes" />
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>不是淘宝</title>
+    <!-- Bootstrap -->
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdn.bootcss.com/Swiper/3.2.0/css/swiper.min.css">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="logo-wrap">
+                    <button type="button" class="btn btn-default btn-lg">
+                        <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                    </button>
+                    <button type="button" class="btn btn-default btn-lg">
+                        <a id="modal-375292" href="#modal-container-375292" data-toggle="modal"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
+                    </button>
+                    <div class="dropdown pull-right themes">
+                        <button class="btn btn-default dropdown-toggle btn-lg" type="button" id="dropdownMenuhamburger" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <span class="  glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                        </button>
+                        <ul class="dropdown-menu " aria-labelledby="dropdownMenuhamburger">
+                            <li>
+                                <a href="#">女装</a><a href="#">男装</a><a href="#">鞋靴</a><a href="#">箱包</a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li>
+                                <a href="#">婴童</a><a href="#">美妆</a><a href="#">食品</a><a href="#">珠宝</a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li>
+                                <a href="#">装修</a><a href="#">建材</a><a href="#">家居</a><a href="#">百货</a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li>
+                                <a href="#">汽车</a><a href="#">数码</a><a href="#">家电</a><a href="#">游戏</a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li>
+                                <a href="#">生活</a><a href="#">学习</a><a href="#">房产</a><a href="#">结婚</a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li>
+                                <a href="#">运动</a><a href="#">户外</a><a href="#">娱乐</a><a href="#">花鸟</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="dropdown pull-right settings">
+                        <button class="btn btn-default dropdown-toggle btn-lg" type="button" id="dropdownMenucog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <span class=" glyphicon glyphicon-cog" aria-hidden="true"></span>
+                        </button>
+                        <ul class="dropdown-menu " aria-labelledby="dropdownMenucog">
+                            <li><a href="#">安全设置</a></li>
+                            <li><a href="#">个人资料</a></li>
+                            <li><a href="#">隐私设置</a></li>
+                            <li><a href="#">个人成长信息</a></li>
+                            <li><a href="#">支付宝绑定设置</a></li>
+                            <li><a href="#">微博绑定设置</a></li>
+                            <li><a href="#">个人交易信息</a></li>
+                            <li><a href="#">收货地址</a></li>
+                            <li><a href="#">网站提醒</a></li>
+                            <li><a href="#">应用授权</a></li>
+                            <li><a href="#">分享绑定</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="search">
+        <div class="input-group">
+            <div class="input-group-btn">
+                <button type="button" class="btn btn-default dropdown-toggle" id="selectinfo" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">宝贝 <span class="caret"></span></button>
+                <ul class="dropdown-menu " id="infolist">
+                    <li> 宝贝</li>
+                    <li> 店铺</li>
+                    <li> 天猫</li>
+                </ul>
+            </div>
+            <!-- /btn-group -->
+            <input type="text" class="form-control" placeholder="寻找宝贝店铺">
+            <span class="input-group-btn">
+        <button class="btn btn-default" type="button" id="go"> <span class="glyphicon glyphicon-search" aria-hidden="true"></span>&nbsp&nbsp&nbsp搜索</button>
+            </span>
+        </div>
+        <!-- /input-group -->
+    </section>
+    <section id="slideshow">
+        <div class="container">
+            <div class="row">
+                <div class="top">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img class="img-responsive" src="http://img.alicdn.com/tps/TB1mpVRKFXXXXbrXXXXXXXXXXXX-1125-352.jpg_q50.jpg" alt=""></div>
+                            <div class="swiper-slide"><img class="img-responsive" src="http://gw.alicdn.com/tps/i4/TB1OyVQKFXXXXXhXpXXdIns_XXX-1125-352.jpg_q50.jpg" alt=""></div>
+                            <div class="swiper-slide"><img class="img-responsive" src="http://gw.alicdn.com/tps/i1/TB18gBnKFXXXXakXFXXdIns_XXX-1125-352.jpg_q50.jpg" alt=""></div>
+                            <div class="swiper-slide"><img class="img-responsive" src="http://gw.alicdn.com/tps/i4/TB1wdA7KpXXXXXaXFXXdIns_XXX-1125-352.jpg_q50.jpg" alt=""></div>
+                            <div class="swiper-slide"><img class="img-responsive" src="http://gw.alicdn.com/tps/i4/TB1DXAkKpXXXXX3XXXXdIns_XXX-1125-352.jpg_q50.jpg" alt=""></div>
+                        </div>
+                        <div class="swiper-pagination swiper-pagination1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-3 col-sm-3">
+                    <figure>
+                        <img class="  center-block" src="https://gw.alicdn.com/tps/i1/TB1eSyDGFXXXXaRXVXXszjdGpXX-140-140.png?imgtag=avatar" alt="">
+                        <figcaption class="text-center">天猫</figcaption>
+                    </figure>
+                </div>
+                <div class="col-xs-3 col-sm-3">
+                    <figure>
+                        <img class="  center-block" src="https://gw.alicdn.com/tps/i3/TB1unlMIVXXXXauXXXXszjdGpXX-140-140.png?imgtag=avatar" alt="">
+                        <figcaption class="text-center">聚划算</figcaption>
+                    </figure>
+                </div>
+                <div class="col-xs-3 col-sm-3">
+                    <figure>
+                        <img class="  center-block" src="https://gw.alicdn.com/tps/i2/TB1oq4xHXXXXXbxXpXXszjdGpXX-140-140.png?imgtag=avatar" alt="">
+                        <figcaption class="text-center">淘生活</figcaption>
+                    </figure>
+                </div>
+                <div class="col-xs-3 col-sm-3">
+                    <figure>
+                        <img class="  center-block" src="https://gw.alicdn.com/tps/i3/TB1QeiDGFXXXXb8XVXXszjdGpXX-140-140.png?imgtag=avatar" alt="">
+                        <figcaption class="text-center">淘点点</figcaption>
+                    </figure>
+                </div>
+                <div class="col-xs-3 col-sm-3">
+                    <figure>
+                        <img class="  center-block" src="https://gw.alicdn.com/tps/i3/TB1pAV7HXXXXXX5aXXXszjdGpXX-140-140.png?imgtag=avatar" alt="">
+                        <figcaption class="text-center">充值</figcaption>
+                    </figure>
+                </div>
+                <div class="col-xs-3 col-sm-3">
+                    <figure>
+                        <img class="  center-block" src="https://gw.alicdn.com/tps/i1/TB1z8qiHpXXXXceaXXXszjdGpXX-140-140.png?imgtag=avatar" alt="">
+                        <figcaption class="text-center">阿里旅行</figcaption>
+                    </figure>
+                </div>
+                <div class="col-xs-3 col-sm-3">
+                    <figure>
+                        <img class="  center-block" src="https://gw.alicdn.com/tps/i3/TB1hW9KGFXXXXXLXpXXszjdGpXX-140-140.png?imgtag=avatar" alt="">
+                        <figcaption class="text-center">领金币</figcaption>
+                    </figure>
+                </div>
+                <div class="col-xs-3 col-sm-3">
+                    <figure>
+                        <img class="  center-block" src="https://gw.alicdn.com/tps/i4/TB1Ed9LGFXXXXc3XXXXszjdGpXX-140-140.png?imgtag=avatar" alt="">
+                        <figcaption class="text-center">分类</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="row news ">
+                <div class="col-xs-12 col-sm-12">
+                    <img class="pull-left tbtt" src="https://gw.alicdn.com/tps/i3/TB12wM3HXXXXXbxapXXdFmWHFXX-207-60.png?imgtag=avatar" alt="">
+                    <div class="newsslide">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><span class="hot">推荐</span>帅的犹如概念车-英菲尼迪QX30</div>
+                                <div class="swiper-slide"><span class="hot">热门</span>舒适格调：冬天必备羊毛地毯</div>
+                                <div class="swiper-slide"><span class="hot">流行</span>创意之戒，缠绕指尖的梦幻之光</div>
+                                <div class="swiper-slide"><span class="hot">特价</span>紧凑级合资SUV降价排行榜</div>
+                                <div class="swiper-slide"><span class="hot">吓尿</span>帅的犹如概念车-英菲尼迪QX30</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="modal fade" id="modal-container-375292" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn btn-default  pull-right btn-fuck" data-dismiss="modal">
+                        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">
+                                登陆/注册
+                            </h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">用户名</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="请输入用户名">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">密码</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="请输入密码">
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"> 记住我
+                            </label>
+                        </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">登陆</button>
+                    <button type="submit" class="btn btn-info">注册</button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <h4 class="text-center">超实惠</h4>
+    <div class="container">
+        <div class="row">
+            <section id="feeder" class="chaoshihui">
+                <img class="img-responsive" src="https://gw.alicdn.com/tps/i3/TB1hjZvJVXXXXaFXFXXgPBi_XXX-450-354.png?imgtag=avatar" alt="">
+                <img class="img-responsive" src="https://gw.alicdn.com/tps/i2/TB1vFMEJVXXXXa_XpXXFgMv5pXX-225-354.png?imgtag=avatar" alt="">
+                <img class="img-responsive" src="https://img.alicdn.com/tps/TB142kMJVXXXXXJXXXXXXXXXXXX-225-354.png?imgtag=avatar" alt="">
+                <img class="img-responsive" src="https://gw.alicdn.com/tps/i3/TB1jW3sJVXXXXcoXFXXFgMv5pXX-225-354.png?imgtag=avatar" alt="">
+            </section>
+                   <section id="feeder" class="chaoshihui">
+                <img class="img-responsive" src="https://img.alicdn.com/imgextra/i2/5/TB2h.5zhpXXXXchXXXXXXXXXXXX_!!5-2-subaru.png?imgtag=avatar" alt="">
+                <img class="img-responsive" src="https://gw.alicdn.com/tps/i1/TB1nE71JVXXXXXPXXXXFgMv5pXX-225-354.png?imgtag=avatar" alt="">
+                <img class="img-responsive" src="https://gw.alicdn.com/tps/TB1RHcvJVXXXXaKXFXXXXXXXXXX-225-354.png?imgtag=avatar" alt="">
+                <img class="img-responsive" src="https://gw.alicdn.com/tps/i2/TB189sbJVXXXXcEXFXXFgMv5pXX-225-354.png?imgtag=avatar" alt="">
+            </section>
+        </div>
+    </div>
+
+
+<h4 class="text-center">好品质</h4>
+    <div class="container">
+        <div class="row">
+            <section id="feeder" class="haopinzhi1">
+                <img class="img-responsive" src="https://gw.alicdn.com/tps/i2/TB1Kjj0JVXXXXc7XpXX3P9TJpXX-675-294.png?imgtag=avatar" alt="">
+                <img class="img-responsive" src="https://gw.alicdn.com/tps/TB1.Q3nJVXXXXciXFXXXXXXXXXX-450-294.png?imgtag=avatar" alt="">
+        
+            </section>
+                   <section id="feeder" class="haopinzhi2">
+                <img class="img-responsive" src="https://gw.alicdn.com/tps/i4/TB1Xa7vJVXXXXcUXpXXFgMv5pXX-225-354.png?imgtag=avatar" alt="">
+                <img class="img-responsive" src="https://img.alicdn.com/tps/TB1R9wOJVXXXXXsXXXXXXXXXXXX-225-354.png?imgtag=avatar" alt="">
+                <img class="img-responsive" src="https://gw.alicdn.com/tps/i1/TB17.JzKFXXXXXIXVXXFgMv5pXX-225-354.png" alt="">
+                <img class="img-responsive" src="https://gw.alicdn.com/tps/i4/TB1eGv9JVXXXXaBXFXX2ggv5pXX-225-354.jpg_q50.jpg?imgtag=avatar" alt="">
+                  <img class="img-responsive" src="https://img.alicdn.com/tps/TB1kqQnJVXXXXXBXVXXXXXXXXXX-225-354.png?imgtag=avatar" alt="">
+            </section>
+        </div>
+    </div>
+<h4 class="text-center">有特色</h4>
+    <div class="container">
+        <div class="row">
+            <section id="feeder" class="youtese1">
+                <img class="img-responsive" src="https://gw.alicdn.com/tps/i4/TB1Ny4JKFXXXXbzXpXXgPBi_XXX-450-354.png" alt="">
+                <img class="img-responsive" src="https://img.alicdn.com/tps/TB1oYdKKFXXXXcDXXXXXXXXXXXX-225-354.png" alt="">
+        <img class="img-responsive" src="https://gw.alicdn.com/tps/i4/TB1GlRwKFXXXXXCXVXXFgMv5pXX-225-354.png" alt="">
+        <img class="img-responsive" src="https://gw.alicdn.com/tps/i3/TB1RdyFKXXXXXbhXXXXFgMv5pXX-225-354.png" alt="">
+            </section>
+                   <section id="feeder" class="youtese2">
+                <img class="img-responsive" src="https://gw.alicdn.com/tps/i4/TB1OeMPJVXXXXatXXXXCO8i_XXX-450-354.jpg_q50.jpg?imgtag=avatar" alt="">
+                <img class="img-responsive" src="https://img.alicdn.com/tps/TB1O87lJVXXXXaVXFXXXXXXXXXX-225-354.png" alt="">
+                <img class="img-responsive" src="https://img.alicdn.com/tps/TB183MMJVXXXXaEXXXXXXXXXXXX-225-354.png?imgtag=avatar" alt="">
+          
+                  <img class="img-responsive" src="https://gw.alicdn.com/tps/i1/TB1cnL.JVXXXXaKXFXXFgMv5pXX-225-354.png?imgtag=avatar" alt="">
+            </section>
+        </div>
+    </div>
+
+
+
+
+ <footer>
+  <p class="text-center"> COPYRIGHT © 1992 – 2015 <a target="_blank" href="http://sighttp.qq.com/authd?IDKEY=d0f493e4e7486cc0ba1400b3f6054cbdb794ffd5b736b773"><img border="0"  src="http://wpa.qq.com/imgd?IDKEY=d0f493e4e7486cc0ba1400b3f6054cbdb794ffd5b736b773&pic=51" alt="点击这里给我发消息" title="点击这里给我发消息"/><kbd>徐立夫</kbd></a>  ALL RIGHTS RESERVED.</p>
+</footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="http://cdn.bootcss.com/Swiper/3.2.0/js/swiper.jquery.min.js"></script>
+ 
+    <script src="js/app.js"></script>
+</body>
+
+</html>

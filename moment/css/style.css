@@ -1,0 +1,182 @@
+html,
+body {
+  width: 1080px;
+  margin: 0 auto;
+  padding-top: 64px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+header {
+  background-image: url("../img/header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1080px;
+  height: 128px;
+  position: fixed;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+  color: white;
+}
+header .time {
+  font-size: 30px;
+  margin-top: 5px;
+}
+header .find {
+  font-size: 30px;
+  position: absolute;
+  top: 65px;
+  left: 50px;
+}
+header .moment {
+  font-size: 40px;
+  margin-top: 5px;
+}
+#profile {
+  position: relative;
+}
+#profile .bg {
+  background-image: url("http://r.photo.store.qq.com/psb?/V13KEoAv2gecyf/OXvWpuUi0*hPqdBsdvrlSHAFYEoGpcXkgAz9zal54DA!/o/dGIBAAAAAAAA");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1080px;
+  height: 800px;
+  margin-bottom: 100px;
+}
+#profile .avatar {
+  background-image: url("http://rawtj.photo.store.qq.com/psb?/V13KEoAv2gecyf/UoQ6zzDk8xC*Dy.pKvV0i*LvtxNzCYu8MYW69R5a*G4!/r/dIgBAAAAAAAA");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 140px;
+  height: 140px;
+  border: 5px white solid;
+  outline: 1px black solid;
+  position: absolute;
+  top: 710px;
+  left: 900px;
+}
+#profile .nickname {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 740px;
+  left: 650px;
+}
+.feeder {
+  font-size: 30px;
+  padding: 0 25px ;
+}
+.feeder .recut {
+  width: 85px;
+  height: 85px;
+  display: inline;
+}
+.feeder .feedname {
+  color: #6F7FA3;
+}
+.feeder .location {
+  color: #6F7FA3;
+  font-size: 25px;
+  margin-top: 10px;
+}
+.feeder .media-body {
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+.feeder .detail {
+  margin-top: 35px;
+  position: relative;
+  margin-bottom: 10px;
+}
+.feeder .detail .feedtime {
+  color: #A4A4A4;
+  font-size: 25px;
+}
+.feeder .detail .pin {
+  background-image: url("../img/pin.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 40px;
+}
+.smart {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 180px;
+  font-size: 25px;
+  display: inline-block;
+  text-align: center;
+  line-height: 78px;
+  height: 78px;
+  text-indent: 50px;
+}
+.ops {
+  color: white;
+  position: absolute;
+  display: none;
+  top: -20px;
+  left: 560px;
+  font-size: 0px;
+
+}
+.ops .like {
+  background-image: url("../img/like.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 180px;
+  font-size: 25px;
+  display: inline-block;
+  text-align: center;
+  line-height: 78px;
+  height: 78px;
+  text-indent: 50px;
+  -webkit-border-top-left-radius: 15px;
+  -moz-border-radius-topleft: 15px;
+  border-top-left-radius: 15px;
+  -webkit-border-bottom-left-radius: 15px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius-bottomleft: 15px;
+  -moz-background-clip: padding;
+  border-bottom-left-radius: 15px;
+  background-clip: padding-box;
+}
+.ops .comment {
+  background-image: url("../img/comment.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 180px;
+  font-size: 25px;
+  display: inline-block;
+  text-align: center;
+  line-height: 78px;
+  height: 78px;
+  text-indent: 50px;
+  -webkit-border-top-right-radius: 15px;
+  -moz-border-radius-topright: 15px;
+  border-top-right-radius: 15px;
+  -webkit-border-bottom-right-radius: 15px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius-bottomright: 15px;
+  -moz-background-clip: padding;
+  border-bottom-right-radius: 15px;
+  background-clip: padding-box;
+}
+.comreply .commentarea {
+  background-color: #F3F3F5;
+  padding: 10px;
+}
+.comreply .commentarea p {
+  line-height: 60px;
+}
+.comreply .triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid #F3F3F5;
+  margin-left: 15px;
+}
