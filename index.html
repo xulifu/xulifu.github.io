@@ -1,34 +1,77 @@
-﻿
-<!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en" style="font-size: 52px;">
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no" />
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>徐立夫</title>
-    <!-- Bootstrap -->
-    <link href="http://cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
- 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <link rel="icon" href="#">
+    <title>通信大数据行程卡</title>
+    <link href="css/result.f7ca6bbe.css" rel="prefetch">
+    <link href="js/result.f2d46d49.js" rel="prefetch">
+    <link href="css/app.ac8bd48b.css" rel="preload" as="style">
+    <link href="css/chunk-vendors.779f7d1d.css" rel="preload" as="style">
+    <link href="js/chunk-vendors.56730fc8.js" rel="preload" as="script">
+    <link href="css/chunk-vendors.779f7d1d.css" rel="stylesheet">
+    <link href="css/app.ac8bd48b.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/result.f7ca6bbe.css">
+    <script charset="utf-8" src="js/result.f2d46d49.js"></script>
 </head>
 
-<body>
- <h1 class="text-center">怀抱既然不能逗留</h1>
-<h1 class="text-center">何不在离开的时候</h1>
-   
-<p class="text-center">最后更新日期 : <script type="text/javascript">
-document.write(document.lastModified)
-</script></p>
-    <footer>
-        <p class="text-center"> COPYRIGHT © 1992 – 2018
-            <a target="_blank" href="#">
-                <kbd>徐立夫</kbd>
-            </a> ALL RIGHTS RESERVED.</p>
-    </footer>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<body onload="change()"><noscript><strong>We're sorry but vue-cli3-demo doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript>
+    <div id="app">
+        <div data-v-331d83c8="" class="result-wrap">
+            <div data-v-331d83c8="" class="bg-pic1 greenBg">
+                <div data-v-331d83c8="" class="banner-img-holder imgholder2"></div>
+                <div data-v-331d83c8="" class="div-main">
+                    <div data-v-331d83c8="" class="top green"></div>
+                    <p data-v-331d83c8="" class="hidden-tel" id='telephone'> 153****0730的动态行程卡</p>
+                    <p data-v-331d83c8="" class="update" id='realtime'>更新于：</p>
+                    <div data-v-331d83c8="" class="info">
+                        <div data-v-331d83c8="" class="img-holder green-bg"><img data-v-331d83c8="" src="img/gif_green.aa2c099c.gif" alt="" class="qr-img"></div>
+                        </div>
+                        <div data-v-331d83c8="" class="bott"><img data-v-331d83c8="" src="data:image/png;base64,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" alt="" style="width: 100%; height: 100%;">
+                            <!---->
+                        </div>
+                    </div>
+                    <!---->
+                    <!---->
+                    <div data-v-331d83c8="" class="tip">结果包含您在前14天内到访的国家(地区)与停留4小时以上的国内城市<br data-v-331d83c8=""><br data-v-331d83c8=""> 色卡仅对到访地作提醒，不关联健康状况 </div>
+                    <div data-v-331d83c8="" class="foot-box">
+                        <footer data-v-0a8392f0="" data-v-331d83c8="" class="footer-comp">
+                            <div data-v-0a8392f0="">
+                                <p data-v-0a8392f0="" style="font-size: 0.24rem; color: white;">————————— 本服务联合提供 —————————</p>
+                            </div>
+                            <div data-v-0a8392f0="" class="caict"><img data-v-0a8392f0="" src="img/222.e8d1724d.png" alt="caict"></div>
+                                <div data-v-0a8392f0="" style="padding-top: 0.15rem;"><a data-v-0a8392f0="" style="font-size: 0.24rem; color: white;">客服热线：</a><a data-v-0a8392f0="" href="tel:10000" style="font-size: 0.24rem; color: white;">10000</a> <a data-v-0a8392f0="" style="font-size: 0.24rem; color: white;">/</a><a data-v-0a8392f0="" href="tel:10086" style="font-size: 0.24rem; color: white;"> 10086</a><a data-v-0a8392f0="" style="font-size: 0.24rem; color: white;"> / </a> <a data-v-0a8392f0="" href="tel:10010" style="font-size: 0.24rem; color: white;">10010</a></div>
+                        </footer>
+                    </div>
+                </div>
+                <div data-v-331d83c8="" style="display: flex; background: rgb(248, 248, 248); width: 100%;">
+                    <div data-v-331d83c8="" style="color: rgb(68, 68, 68); text-align: left; padding-top: 0.1rem; font-size: 0.24rem; padding-left: 0.55rem; padding-bottom: 0.1rem; display: flex; width: 100%;">
+                        <div data-v-331d83c8="" style="margin-left: 0.2rem; width: 39%;">
+                            <div data-v-331d83c8="" style="font-weight: bold; margin-bottom: 0.12rem; margin-top: 0.2rem;">一证通查来了！</div>
+                            <div data-v-331d83c8="" style="font-size: 0.2rem;">立即点击进入</div>
+                        </div>
+                        <div data-v-331d83c8="" style="padding: 0.2rem; background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); border-radius: 0.1rem;">
+                            <div data-v-331d83c8="" style="font-weight: bold; margin-bottom: 0.12rem;"> 全国移动电话卡“⼀证通查” </div>
+                            <div data-v-331d83c8="" style="font-size: 0.2rem; text-align: center;"> 防范诈骗，保护你我 </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/chunk-vendors.56730fc8.js"></script>
+                <script>
+function change() {
+var myDate = new Date();
+var mytime=myDate.toLocaleTimeString();
+  var x =document.getElementById("realtime");
+x.innerHTML ="更新于："+myDate.toLocaleString( ); 
 
+}
+ </script>
 </body>
+
+</style>
 
 </html>
