@@ -9,19 +9,15 @@
         <link rel="icon" href="#">
         <title>通信大数据行程卡</title>
         <link href="css/result.c47495cf.css" rel="prefetch">
-        <link href="js/result.ee7a7372.js" rel="prefetch">
         <link href="css/app.0c6bc409.css" rel="preload" as="style">
         <link href="css/chunk-vendors.779f7d1d.css" rel="preload" as="style">
-        <link href="js/app.97ea852a.js" rel="preload" as="script">
-        <link href="js/chunk-vendors.56730fc8.js" rel="preload" as="script">
         <link href="css/chunk-vendors.779f7d1d.css" rel="stylesheet">
         <link href="css/app.0c6bc409.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/result.c47495cf.css">
-        <script charset="utf-8" src="js/result.ee7a7372.js"></script>
     </head>
 </head>
 
-<body>
+<body onload="change()">
     <div id="app">
         <div data-v-3cae35ce="" class="result-wrap">
             <div data-v-3cae35ce="" class="bg-pic1 greenBg">
@@ -29,7 +25,7 @@
                 <div data-v-3cae35ce="" class="div-main">
                     <div data-v-3cae35ce="" class="top green"></div>
                     <p data-v-3cae35ce="" class="hidden-tel" contenteditable="true">153****0730的动态行程卡</p>
-                    <p data-v-3cae35ce="" class="update">更新于：2022.12.12 16:11:34</p>
+                    <p data-v-3cae35ce="" class="update" id='realtime'>更新于：2022.12.12 16:11:34</p>
                     <div data-v-3cae35ce="" class="info">
                         <div data-v-3cae35ce="" class="img-holder green-bg"><img data-v-3cae35ce="" src="img/gif_green.aa2c099c.gif" alt="" class="qr-img"></div>
                         </div>
@@ -66,9 +62,11 @@
             <script>
             function change() {
                 var myDate = new Date();
-                var mytime = myDate.toLocaleTimeString();
+                var year=myDate.getFullYear();
+                 var month=myDate.getMonth()+1;
+                  var day=myDate.getDate();
                 var x = document.getElementById("realtime");
-                x.innerHTML = "更新于：" + myDate.toLocaleString();
+                x.innerHTML = "更新于：" + year+"."+month+"."+day+" "+myDate.toLocaleTimeString();
 
             }
             </script>
