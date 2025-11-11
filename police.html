@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>*{
+	padding: 0;
+	margin: 0;
+}
+#flash{
+position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+@keyframes red {
+from {background: red;}
+to {background: blue;}
+}
+
+@keyframes blue {
+from {background: blue;}
+to {background: red;}
+}
+.red{
+	background: red;
+	animation: red 0.3s infinite;
+		height: 50%;
+	width: 100%;
+}
+.blue{
+background: blue;
+	animation: blue 0.3s infinite;
+		height: 50%;
+	width: 100%;
+}</style>
+	<title>police</title>
+</head>
+<body>
+<section id=flash>
+	<div class="red"></div>
+	<div class="blue"></div>
+</section>
+</body>
+</html>
